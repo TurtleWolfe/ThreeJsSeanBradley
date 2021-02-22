@@ -6,6 +6,8 @@
       "baseUrl": ".",
       "paths": {
         "/build/three.module.js": ["../../node_modules/@types/three"],
+        "/jsm/*": ["../../node_modules/three/examples/jsm/*"],
+
       },
       "moduleResolution": "node"
   },
