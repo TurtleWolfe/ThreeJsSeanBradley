@@ -55,37 +55,15 @@
 ```
 
 ```bash
- 1968  git status
- 1969  git push
- 1970  clear
- 1971  git push
- 1972  git status
- 1973  clear
- 1974  exit
- 1975  history
- 1976  clear
- 1977  exit
- 1978  tsc -p ./src/client/
- 1979  tsc -p ./src/server/
- 1980  node ./dist/server/server.js
- 1981  git status
- 1982  git add .
- 1983  git status
- 1984  git commit -m "#13 Importing ThreeJS Modules"
- 1985  git status
- 1986  git push
- 1987  git status
- 1988  clear
- 1989  exit
- 1990  cd
- 1991  ll
- 1992  cd /
- 1993  ll
- 1994  sudo nano /etc/fstab
- 1995  sudo apt update
- 1996  apt list --upgradable
- 1997  sudo apt upgrade
- 1998  sudo reboot
- 1999  npm install --save-dev nodemon
- 2000  npm install --save-dev concurrently
+ tsc -p ./src/client/
+ tsc -p ./src/server/
+ node ./dist/server/server.js
+ git commit -m "#13 Importing ThreeJS Modules"
+ npm install --save-dev nodemon
+ npm install --save-dev concurrently
+```
+
+```bash
+ npm install @types/dat.gui
+ git commit -m "#19 Dat GUI Panel"
 ```
